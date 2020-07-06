@@ -6,7 +6,7 @@ import java.util.*;
  * O(n^2) time
  * O(1) space
  */
-public class Solution1 {
+class Solution1 {
     public static int[] twoNumberSum(int[] array, int targetSum) {
         // Write your code here. Vaive approach
         for(int i=0; i < array.length-1; i++) {
