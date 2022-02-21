@@ -2,6 +2,9 @@ package string;
 
 import java.util.*;
 
+// O(n*l) time | O(c) space - where n is the number of words
+// l is the length of the longest word, and c is the unique number of
+// characters across the all words
 public class MinimumCharactersForWords {
     public char[] minimumCharactersForWords(String[] words) {
         // Write your code here.
