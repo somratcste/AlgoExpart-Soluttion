@@ -14,6 +14,7 @@ public class ReconstructBST {
         }
     }
 
+    // O(n power 2) time | O(n) space
     public BST reconstructBst(List<Integer> preOrderTraversalValues) {
         if (preOrderTraversalValues.size() == 0) {
             return null;
