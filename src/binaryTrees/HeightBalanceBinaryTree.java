@@ -1,6 +1,7 @@
 package binaryTrees;
 
 public class HeightBalanceBinaryTree {
+    // O(n) time - number of node of tree | O(h) space - height of the binary tree
     static class BinaryTree {
         public int value;
         public BinaryTree left = null;
